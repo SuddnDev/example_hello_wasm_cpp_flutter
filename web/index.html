@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <title>Example: Hello WASM, C++ & Flutter</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <script src="src/hello.js"></script>
+  <script>
+    var scriptTag = document.createElement('script');
+    scriptTag.src = 'main.dart.js';
+    scriptTag.type = 'application/javascript';
+    document.body.append(scriptTag);
+  </script>
+</body>
+
+</html>

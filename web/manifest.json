@@ -1,0 +1,10 @@
+{
+    "name": "example_hello_wasm_cpp_flutter",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "An example project with WASM, C++ and Flutter.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
