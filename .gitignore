@@ -1,0 +1,5 @@
+*.lock
+*.packages
+.dart_tool/
+/build/
+
